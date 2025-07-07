@@ -1,0 +1,16 @@
+import 'package:dice_app2/gradient_container.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      body: GradientContainer(
+        colors: [
+          Color.fromARGB(255, 94, 92, 92),
+          Color.fromARGB(255, 132, 66, 247),
+          Color.fromARGB(255, 26, 52, 202)
+        ],
+      ),
+    ),
+  ));
+}
